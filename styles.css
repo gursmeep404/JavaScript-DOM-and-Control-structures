@@ -1,0 +1,62 @@
+body {
+  font-size: 20px;
+  background-color: black;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  width: 800px;
+  margin: 40px auto auto auto;
+  padding: 20px;
+  background-color: rgb(245, 250, 194);
+  border-radius: 4px;
+}
+
+label {
+  margin-bottom: 6px;
+}
+
+input {
+  width: 400px;
+  height: 20px;
+}
+
+input:focus {
+  background-color: rgb(248, 236, 157);
+}
+span {
+  margin-left: 3px;
+}
+
+button {
+  margin-top: 20px;
+  width: 80px;
+  padding: 8px 0 8px 0;
+  background-color: rgb(200, 190, 82);
+  border-radius: 4px;
+  border: none;
+}
+
+button:hover {
+  background-color: rgb(164, 156, 67);
+  cursor: pointer;
+}
+
+.warning {
+  color: red;
+}
+
+.warning:focus {
+  background-color: rgb(252, 145, 145);
+  color: black;
+}
+
+.error {
+  color: rgb(255, 0, 0);
+}
+
+.error:focus {
+  background-color: red;
+  color: black;
+}
